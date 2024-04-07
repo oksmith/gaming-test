@@ -22,3 +22,13 @@ python visible_points.py
 ```
 You may need to install `requirements.txt` to make sure you have pandas installed.
 
+Sample output:
+```
+gaming-test % python visible_points.py
+enter a point id: 1
+enter an angle: 45
+enter a distance: 20
+-------
+Points in the visible range of 1: [2]
+```
+

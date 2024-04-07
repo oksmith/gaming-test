@@ -24,20 +24,24 @@ def main():
             )
         )
 
-    # print it out
-    for point in playing_field.points:
-        print(f"{point.id}: Position {point.position}, Direction {point.direction}")
-    print("\n\n")
+    # # print it out
+    # for point in playing_field.points:
+    #     print(f"{point.id}: Position {point.position}, Direction {point.direction}")
+    # print("\n\n")
 
-    # find visible points and print to stdout
-    angle = 45
-    distance = 20
-    visible_points = []
-    for point in playing_field.points:
-        visible_points.append(playing_field.visible_points(point.id, angle, distance))
+    # # find visible points and print to stdout
+    # angle = 45
+    # distance = 20
+    # visible_points = []
+    # for point in playing_field.points:
+    #     visible_points.append(playing_field.visible_points(point.id, angle, distance))
 
-    # end of script... we could extend this program to then do something with the visible
-    # points
+    # If you want an interactive tool, use the code below
+    id = int(input("enter a point id: "))
+    angle = int(input("enter an angle: "))
+    distance = int(input("enter a distance: "))
+    print("-------")
+    playing_field.visible_points(id, angle, distance)
 
 if __name__ == "__main__":
     main()
