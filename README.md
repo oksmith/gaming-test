@@ -1,10 +1,17 @@
 # Gaming Test
+
+Imagine we have a playing field:
+![playing_field](images/image.png)
+
 1. Set up an object which represents a `PlayingField`. A playing field will contain
 information about which points are present in the game.
 2. Set up an object which represents a `Point`. Each point will come with a direction. Each
 point must also be associated with a playing field.
 3. For each point, define a method which calculates the set of other points which are inside
 the field of vision.
+
+The image below gives an idea of what's going on visually:
+![cone](image2.png)
 
 ## Instructions to run
 You can adjust the values of `angle` and `distance` in `visible_points.py`.
