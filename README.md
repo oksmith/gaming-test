@@ -5,5 +5,13 @@ information about which points are present in the game.
 point must also be associated with a playing field.
 3. For each point, define a method which calculates the set of other points which are inside
 the field of vision.
-4. Test whether it works or not. Can have a `.txt` file with each of the point locations
-and directions inside.
+
+## Instructions to run
+You can adjust the values of `angle` and `distance` in `visible_points.py`.
+
+To check the program works, just run 
+```
+python visible_points.py
+```
+You may need to install `requirements.txt` to make sure you have pandas installed.
+
