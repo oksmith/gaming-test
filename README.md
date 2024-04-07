@@ -11,7 +11,7 @@ point must also be associated with a playing field.
 the field of vision.
 
 The image below gives an idea of what's going on visually:
-![cone](image2.png)
+![cone](images/image2.png)
 
 ## Instructions to run
 You can adjust the values of `angle` and `distance` in `visible_points.py`.
